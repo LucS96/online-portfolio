@@ -1,0 +1,205 @@
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.nav-bar{
+	max-width:100%;
+	vertical-align: middle;
+	
+	/*border: 1px solid black;*/
+	display: block;
+    margin: auto;
+	width: 40%;
+	margin-top: 10%;
+	max-width: 40%;
+	max-height: 40%;
+}
+
+.nav-image{
+
+	max-width:100%;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+nav{
+	max-width:100%;
+	vertical-align: middle;
+	
+	/*border: 1px solid black;*/
+	display: block;
+    margin: auto;
+	width: 90%;
+	margin-top: 1%;
+	max-width: 90%;
+	max-height: 100%;
+	text-align: center;
+}
+
+.nav-option{
+	display: inline;
+	
+	font-size: 150%;
+	font-weight: bold;
+	padding:4%;
+	
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	color: rgb(120,120,120);
+}
+
+.active{
+	color: rgb(240,56,97);
+	
+}
+
+.about-box{
+	width: 60%;
+	max-width: 60%;
+	max-height: 60%;
+	vertical-align: middle;
+	/*border: 1px solid black;*/
+	margin: auto;
+	margin-top: 10%;
+	text-justify: left;
+	color: rgb(120,120,120);
+	line-height: 30px;
+	font-size: 115%;
+
+
+}
+
+.headline-title{
+	margin-bottom: 2%;
+	font-weight: bold;
+	font-size:150%;
+	text-indent: none;
+	color: black;
+}
+
+.headline-title-2{
+	margin-bottom: 10%;
+	font-weight: bold;
+	font-size:150%;
+	text-indent: none;
+	color: black;
+}
+
+.icon{
+	display: inline;
+}
+
+
+.colom1{
+	/*border: 1px solid black;*/
+	width: 35%;
+	float:left;
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:10%;
+	margin-bottom:10%;
+	max-width: 35%;
+	padding:1%;
+	line-height: 30px;
+
+}
+
+
+.colom2{
+	/*border: 1px solid black;*/
+	width: 35%;
+	float:right;
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:10%;
+	margin-bottom:10%;
+	max-width: 35%;
+	padding:1%;
+	line-height: 30px;
+
+}
+
+.work-title{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 120%;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+
+
+}
+
+.work-date{
+	color: rgb(120,120,120);
+	margin-bottom: 2%;
+
+}
+
+.work-description{
+	color: rgb(120,120,120);
+	font-size: 100%;
+	margin-bottom: 8%;
+	font-weight: lighter;
+}
