@@ -177,6 +177,20 @@ a:hover{
 	font-size: 100%;
 }
 
+.contact-box-3{
+	width: 60%;
+	max-width: 60%;
+	max-height: 60%;
+	vertical-align: middle;
+	/*border: 1px solid black;*/
+	margin: auto;
+	margin-top: 10%;
+	text-justify: left;
+	color: rgb(120,120,120);
+	line-height: 30px;
+	font-size: 100%;
+}
+
 
 
 .headline-title{
@@ -185,6 +199,7 @@ a:hover{
 	font-size:200%;
 	text-indent: none;
 	color: black;
+	max-width: 100%;
 }
 
 .headline-title-2{
@@ -258,7 +273,7 @@ a:hover{
 	margin-left: 20%;
 	margin-bottom: 20%;
 	line-height:30px;
-	
+	padding: 2%;
 }
 
 
@@ -276,3 +291,53 @@ a:hover{
 .email-link{
 	color: rgb(240,56,97);
 }
+
+
+
+
+
+
+
+.row > .column {
+	padding: 2%;
+
+  }
+  
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+
+
+  .row{
+	  
+	  width: 90%;
+	  max-width: 90%;
+	  margin-left: 10%;
+	  margin-right: 10%;
+	  margin-top: 10%;
+
+  }
+
+  .image-gallery{
+	  max-width: 100%;
+	  max-width: 100%;
+
+  }
+.pdf-preview{
+	   width:60%;
+	   margin-left: 20%;
+	   margin-bottom: 5%;
+	   max-width: 100%;
+	   margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+  
