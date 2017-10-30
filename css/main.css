@@ -174,7 +174,7 @@ a:hover{
 	text-justify: left;
 	color: rgb(120,120,120);
 	line-height: 30px;
-	font-size: 100%;
+	font-size: 1em;
 }
 
 .contact-box-3{
@@ -196,16 +196,16 @@ a:hover{
 .headline-title{
 	margin-bottom: 2%;
 	font-weight: bold;
-	font-size:200%;
+	font-size:2em;
 	text-indent: none;
 	color: black;
-	max-width: 100%;
+
 }
 
 .headline-title-2{
 	margin-bottom: 10%;
 	font-weight: bold;
-	font-size:200%;
+	font-size:2em;
 	text-indent: none;
 	color: black;
 }
@@ -247,7 +247,7 @@ a:hover{
 .work-title{
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 120%;
+	font-size: 1.2em;
 	font-weight: bold;
 	color: rgb(0, 0, 0);
 
@@ -262,7 +262,7 @@ a:hover{
 
 .work-description{
 	color: rgb(120,120,120);
-	font-size: 100%;
+	font-size: 1em;
 	margin-bottom: 8%;
 	font-weight: lighter;
 }
