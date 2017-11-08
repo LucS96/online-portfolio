@@ -364,7 +364,8 @@ abbr:hover{
 		
 		/*border: 1px solid black;*/
 		display: block;
-		margin: auto;
+		margin-left: 5%;
+		margin-right: 5%;
 		width: 90%;
 		margin-top: 10%;
 		max-width: 90%;
@@ -375,15 +376,15 @@ abbr:hover{
 .nav-option {
 	display: block;
 	
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	padding:.4em;
 	
 	max-width: 100%;
 	max-height: 100%;
 	text-align: center;
-	border: 2px solid rgb(120,120,120);
-	width:5em;
+	background-color: rgb(226, 226, 226);
+	width:6.5em;
 	margin: .4em auto;
 	border-radius:1em;
 	
@@ -506,6 +507,36 @@ abbr:hover{
 
 
 
+
+
+	.row > .column {
+		padding: 2%;
+	
+	  }
+	  
+	  .column {
+		margin-left: 5%;
+		margin-right: 5%;
+		width:90%;
+	  }
+	  
+	
+	
+	  .row{
+		  
+		  width: 95%;
+		  max-width: 95%;
+		  margin-left: 10%;
+		  margin-right: 10%;
+		  margin-top: 10%;
+	
+	  }
+	
+	  .image-gallery{
+		  max-width: 100%;
+		  max-width: 100%;
+	
+	  }
 
 
 
